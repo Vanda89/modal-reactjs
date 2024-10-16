@@ -44,6 +44,7 @@ export default function Modal({
           <div
             className="backdrop fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
             aria-hidden="true"
+            onClick={onClose}
           ></div>
 
           <div className="modal-content fixed inset-0 z-10 overflow-y-auto">
