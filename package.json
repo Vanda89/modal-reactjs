@@ -1,7 +1,7 @@
 {
   "name": "modal-reactjs-tailwindcss",
   "version": "1.0.1",
-  "description": "",
+  "description": "A responsive modal component for React with keyboard interaction support and customizable icons, designed to improve accessibility.",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,15 @@
     "lint": "eslint .",
     "format": "prettier --write ."
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vanda89/modal-reactjs-tailwindcss"
+  },
+  "keywords": [
+    "modal",
+    "reactjs",
+    "tailwindcss"
+  ],
   "author": "Sandrine Alcazar <sandrinealcazar@gmail.com>",
   "license": "ISC",
   "dependencies": {
